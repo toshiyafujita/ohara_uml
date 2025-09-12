@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+actor "ユーザー" as fc
+rectangle "システム内部" {
+  usecase "学生情報を登録する" as UC1
+  usecase "学術情報を登録する" as UC2
+}
+fc --> UC1
+fc --> UC2
+@enduml
