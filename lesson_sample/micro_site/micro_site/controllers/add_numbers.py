@@ -12,8 +12,7 @@ def add_numbers(environ):
         set_second_value(second_value)
 
         #ここに処理を書く
-    set_first_value(10)
-    set_second_value(20)
+
 
     addition = get_addition()
 
